@@ -15,20 +15,24 @@ export default function Home() {
         <div className="text-center text-5xl">T.S</div>
         <div className="text-left">自己紹介</div>
         <div className="leading-lg">
-          自己紹介を書く
+          初めまして。<br/>
+          都内のSESで働いています。<br/>
+          2023卒です。<br/>
+          今の職場ではテストをすることが多いです<br/>
+          開発があまりできていないので、転職するために勉強中です！<br/>
         </div>
-      </div>
-      <div className="flex gap-5">
-        <Link href="/hobby">
-          <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-yellow-300 hover:bg-yellow-200">
-            趣味
-          </div>
-        </Link>
-        <Link href="/work">
-          <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-yellow-300 hover:bg-yellow-200">
-            仕事
-          </div>
-        </Link>  
+        <div className="flex gap-5">
+          <Link href="/hobby">
+            <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-yellow-300 hover:bg-yellow-200">
+              趣味
+            </div>
+          </Link>
+          <Link href="/work">
+            <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-yellow-300 hover:bg-yellow-200">
+              仕事
+            </div>
+          </Link>  
+        </div>
       </div>
     </div>
   );
